@@ -1,0 +1,4 @@
+/home/dostavic/Code/TUKE/github/PyGoCppMatrix/cmake-build-debug/CMakeFiles/PyGoCppMatrix.dir
+/home/dostavic/Code/TUKE/github/PyGoCppMatrix/cmake-build-debug/CMakeFiles/PyGoCppMatrixParallel.dir
+/home/dostavic/Code/TUKE/github/PyGoCppMatrix/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dostavic/Code/TUKE/github/PyGoCppMatrix/cmake-build-debug/CMakeFiles/rebuild_cache.dir

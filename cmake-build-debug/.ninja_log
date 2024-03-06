@@ -1,0 +1,13 @@
+# ninja log v5
+0	38	1709572873746895709	build.ninja	6f78d99f55822ee4
+1	680	1709571934636421766	CMakeFiles/PyGoCppMatrix.dir/src/cpp/sequential/main.cpp.o	927d114aced8295e
+1	909	1709572731974465664	CMakeFiles/PyGoCppMatrix.dir/src/cpp/parallel/main.cpp.o	b727c49a6108e661
+0	98	1709572786356736777	PyGoCppMatrix	c7d38a4815cca57e
+0	825	1709572880232860515	CMakeFiles/PyGoCppMatrixParallel.dir/src/cpp/parallel/main.cpp.o	1341ca2aa609e23e
+825	939	1709572880343859913	PyGoCppMatrixParallel	21e880fdad00181b
+1	786	1709572975103230786	CMakeFiles/PyGoCppMatrixParallel.dir/src/cpp/parallel/main.cpp.o	1341ca2aa609e23e
+786	878	1709572975194231034	PyGoCppMatrixParallel	21e880fdad00181b
+3	990	1709574833616198118	CMakeFiles/PyGoCppMatrix.dir/src/cpp/sequential/main.cpp.o	927d114aced8295e
+990	1138	1709574833763199395	PyGoCppMatrix	c7d38a4815cca57e
+0	820	1709574875775564396	CMakeFiles/PyGoCppMatrix.dir/src/cpp/sequential/main.cpp.o	927d114aced8295e
+820	945	1709574875900565482	PyGoCppMatrix	c7d38a4815cca57e
