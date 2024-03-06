@@ -57,7 +57,7 @@ sed -i 's|auto resultInt = multiplyMatrix(matrixAInt, matrixBInt);|//    auto re
 sed -i 's|auto endInt = std::chrono::high_resolution_clock::now();|//    auto endInt = std::chrono::high_resolution_clock::now();|g' "$SOURCE_FILE"
 sed -i 's|auto elapsedInt = std::chrono::duration_cast<std::chrono::milliseconds>(endInt - startInt);|//    auto elapsedInt = std::chrono::duration_cast<std::chrono::milliseconds>(endInt - startInt);|g' "$SOURCE_FILE"
 sed -i 's|std::cout << "Time (int) : " << elapsedInt.count() << " ms" << std::endl;|//    std::cout << "Time (int) : " << elapsedInt.count() << " ms" << std::endl;|g' "$SOURCE_FILE"
-sed -i 's|saveMatrix(resultInt, "../../../data/output/matrix_cpp_int.txt");|//    saveMatrix(resultInt, "../../../data/output/matrix_cpp_int.txt");|g' "$SOURCE_FILE"
+sed -i 's|saveMatrix(resultInt, "../../../data/output/matrix_cpp_s_int.txt");|//    saveMatrix(resultInt, "../../../data/output/matrix_cpp_s_int.txt");|g' "$SOURCE_FILE"
 
 sed -i 's|//    auto matrixAFloat = readMatrix<float>("../../../data/input/matrix_float_500_500_1.txt");|auto matrixAFloat = readMatrix<float>("../../../data/input/matrix_float_500_500_1.txt");|g' "$SOURCE_FILE"
 sed -i 's|//    auto matrixBFloat = readMatrix<float>("../../../data/input/matrix_float_500_500_2.txt");|auto matrixBFloat = readMatrix<float>("../../../data/input/matrix_float_500_500_2.txt");|g' "$SOURCE_FILE"
@@ -66,7 +66,7 @@ sed -i 's|//    auto resultFloat = multiplyMatrix(matrixAFloat, matrixBFloat);|a
 sed -i 's|//    auto endFloat = std::chrono::high_resolution_clock::now();|auto endFloat = std::chrono::high_resolution_clock::now();|g' "$SOURCE_FILE"
 sed -i 's|//    auto elapsedFloat = std::chrono::duration_cast<std::chrono::milliseconds>(endFloat - startFloat);|auto elapsedFloat = std::chrono::duration_cast<std::chrono::milliseconds>(endFloat - startFloat);|g' "$SOURCE_FILE"
 sed -i 's|//    std::cout << "Time (float) : " << elapsedFloat.count() << " ms" << std::endl;|std::cout << "Time (float) : " << elapsedFloat.count() << " ms" << std::endl;|g' "$SOURCE_FILE"
-sed -i 's|//    saveMatrix(resultFloat, "../../../data/output/matrix_cpp_float.txt");|saveMatrix(resultFloat, "../../../data/output/matrix_cpp_float.txt");|g' "$SOURCE_FILE"
+sed -i 's|//    saveMatrix(resultFloat, "../../../data/output/matrix_cpp_s_float.txt");|saveMatrix(resultFloat, "../../../data/output/matrix_cpp_s_float.txt");|g' "$SOURCE_FILE"
 
 
 g++ "$SOURCE_FILE" -o "$OUTPUT_FILE"
@@ -118,7 +118,7 @@ sed -i 's|//    auto resultInt = multiplyMatrix(matrixAInt, matrixBInt);|auto re
 sed -i 's|//    auto endInt = std::chrono::high_resolution_clock::now();|auto endInt = std::chrono::high_resolution_clock::now();|g' "$SOURCE_FILE"
 sed -i 's|//    auto elapsedInt = std::chrono::duration_cast<std::chrono::milliseconds>(endInt - startInt);|auto elapsedInt = std::chrono::duration_cast<std::chrono::milliseconds>(endInt - startInt);|g' "$SOURCE_FILE"
 sed -i 's|//    std::cout << "Time (int) : " << elapsedInt.count() << " ms" << std::endl;|std::cout << "Time (int) : " << elapsedInt.count() << " ms" << std::endl;|g' "$SOURCE_FILE"
-sed -i 's|//    saveMatrix(resultInt, "../../../data/output/matrix_cpp_int.txt");|saveMatrix(resultInt, "../../../data/output/matrix_cpp_int.txt");|g' "$SOURCE_FILE"
+sed -i 's|//    saveMatrix(resultInt, "../../../data/output/matrix_cpp_s_int.txt");|saveMatrix(resultInt, "../../../data/output/matrix_cpp_s_int.txt");|g' "$SOURCE_FILE"
 
 sed -i 's|auto matrixAFloat = readMatrix<float>("../../../data/input/matrix_float_500_500_1.txt");|//    auto matrixAFloat = readMatrix<float>("../../../data/input/matrix_float_500_500_1.txt");|g' "$SOURCE_FILE"
 sed -i 's|auto matrixBFloat = readMatrix<float>("../../../data/input/matrix_float_500_500_2.txt");|//    auto matrixBFloat = readMatrix<float>("../../../data/input/matrix_float_500_500_2.txt");|g' "$SOURCE_FILE"
@@ -127,4 +127,4 @@ sed -i 's|auto resultFloat = multiplyMatrix(matrixAFloat, matrixBFloat);|//    a
 sed -i 's|auto endFloat = std::chrono::high_resolution_clock::now();|//    auto endFloat = std::chrono::high_resolution_clock::now();|g' "$SOURCE_FILE"
 sed -i 's|auto elapsedFloat = std::chrono::duration_cast<std::chrono::milliseconds>(endFloat - startFloat);|//    auto elapsedFloat = std::chrono::duration_cast<std::chrono::milliseconds>(endFloat - startFloat);|g' "$SOURCE_FILE"
 sed -i 's|std::cout << "Time (float) : " << elapsedFloat.count() << " ms" << std::endl;|//    std::cout << "Time (float) : " << elapsedFloat.count() << " ms" << std::endl;|g' "$SOURCE_FILE"
-sed -i 's|saveMatrix(resultFloat, "../../../data/output/matrix_cpp_float.txt");|//    saveMatrix(resultFloat, "../../../data/output/matrix_cpp_float.txt");|g' "$SOURCE_FILE"
+sed -i 's|saveMatrix(resultFloat, "../../../data/output/matrix_cpp_s_float.txt");|//    saveMatrix(resultFloat, "../../../data/output/matrix_cpp_s_float.txt");|g' "$SOURCE_FILE"

@@ -194,7 +194,7 @@ func main() {
 	//durationFloat := endTimeFloat.Sub(startTimeFloat)
 	//
 	//// PrintMatrix(result)
-	//WriteMatrix[float64]("../../data/output/matrix_float.txt", resultFloat)
+	//WriteMatrix[float64]("../../data/output/matrix_go_float.txt", resultFloat)
 
 	//fmt.Println("Time (float64): ", durationFloat.Milliseconds(), "ms")
 
@@ -215,7 +215,7 @@ func main() {
 	durationInt := endTimeInt.Sub(startTimeInt)
 
 	// PrintMatrix(result)
-	WriteMatrix[int]("../../data/output/matrix_int.txt", resultInt)
+	WriteMatrix[int]("../../data/output/matrix_go_int.txt", resultInt)
 
 	fmt.Println("Time (int): ", durationInt.Milliseconds(), "ms")
 }

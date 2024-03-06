@@ -1,0 +1,377 @@
+C++ | sequential | 500x500 | int
+Time (int) : 3142 ms
+C++ | sequential | 1000x1000 | int
+Time (int) : 25178 ms
+C++ | sequential | 2000x2000 | int
+Time (int) : 257332 ms
+
+C++ | sequential | 500x500 | float
+Time (float) : 3026 ms
+C++ | sequential | 1000x1000 | float
+Time (float) : 25635 ms
+C++ | sequential | 2000x2000 | float
+Time (float) : 261132 ms
+
+C++ | parallel | 2 | 500x500 | int
+Time (int): 1452 ms
+C++ | parallel | 2 | 1000x1000 | int
+Time (int): 12252 ms
+C++ | parallel | 2 | 2000x2000 | int
+Time (int): 123829 ms
+
+C++ | parallel | 2 | 500x500 | float
+Time (float): 1512 ms
+C++ | parallel | 2 | 1000x1000 | float
+Time (float): 12444 ms
+C++ | parallel | 2 | 2000x2000 | float
+Time (float): 128255 ms
+
+C++ | parallel | 4 | 500x500 | int
+Time (int): 724 ms
+C++ | parallel | 4 | 1000x1000 | int
+Time (int): 6446 ms
+C++ | parallel | 4 | 2000x2000 | int
+Time (int): 61996 ms
+
+C++ | parallel | 4 | 500x500 | float
+Time (float): 757 ms
+C++ | parallel | 4 | 1000x1000 | float
+Time (float): 6633 ms
+C++ | parallel | 4 | 2000x2000 | float
+Time (float): 64263 ms
+
+C++ | parallel | 8 | 500x500 | int
+Time (int): 670 ms
+C++ | parallel | 8 | 1000x1000 | int
+Time (int): 6217 ms
+C++ | parallel | 8 | 2000x2000 | int
+Time (int): 55356 ms
+
+C++ | parallel | 8 | 500x500 | float
+Time (float): 695 ms
+C++ | parallel | 8 | 1000x1000 | float
+Time (float): 6659 ms
+C++ | parallel | 8 | 2000x2000 | float
+Time (float): 57244 ms
+
+C++ | parallel | 16 | 500x500 | int
+Time (int): 677 ms
+C++ | parallel | 16 | 1000x1000 | int
+Time (int): 6301 ms
+C++ | parallel | 16 | 2000x2000 | int
+Time (int): 58063 ms
+
+C++ | parallel | 16 | 500x500 | float
+Time (float): 720 ms
+C++ | parallel | 16 | 1000x1000 | float
+Time (float): 6618 ms
+C++ | parallel | 16 | 2000x2000 | float
+Time (float): 58324 ms
+
+C++ | sequential | 500x500 | int | O1
+Time (int) : 432 ms
+C++ | sequential | 1000x1000 | int | O1
+Time (int) : 4324 ms
+C++ | sequential | 2000x2000 | int | O1
+Time (int) : 63094 ms
+
+C++ | sequential | 500x500 | float | O1
+Time (float) : 495 ms
+C++ | sequential | 1000x1000 | float | O1
+Time (float) : 4379 ms
+C++ | sequential | 2000x2000 | float | O1
+Time (float) : 63976 ms
+
+C++ | sequential | 500x500 | int | O2
+Time (int) : 187 ms
+C++ | sequential | 1000x1000 | int | O2
+Time (int) : 1743 ms
+C++ | sequential | 2000x2000 | int | O2
+Time (int) : 49731 ms
+
+C++ | sequential | 500x500 | float | O2
+Time (float) : 217 ms
+C++ | sequential | 1000x1000 | float | O2
+Time (float) : 1861 ms
+C++ | sequential | 2000x2000 | float | O2
+Time (float) : 49068 ms
+
+C++ | sequential | 500x500 | int | O3
+Time (int) : 189 ms
+C++ | sequential | 1000x1000 | int | O3
+Time (int) : 1716 ms
+C++ | sequential | 2000x2000 | int | O3
+Time (int) : 49007 ms
+
+C++ | sequential | 500x500 | float | O3
+Time (float) : 215 ms
+C++ | sequential | 1000x1000 | float | O3
+Time (float) : 1843 ms
+C++ | sequential | 2000x2000 | float | O3
+Time (float) : 47769 ms
+
+C++ | parallel | 2 | 500x500 | int | O1
+Time (int): 219 ms
+C++ | parallel | 2 | 1000x1000 | int | 01
+Time (int): 2034 ms
+C++ | parallel | 2 | 2000x2000 | int | 01
+Time (int): 31573 ms
+
+C++ | parallel | 2 | 500x500 | float | 01
+Time (float): 250 ms
+C++ | parallel | 2 | 1000x1000 | float | 01
+Time (float): 2207 ms
+C++ | parallel | 2 | 2000x2000 | float | 01
+Time (float): 31896 ms
+
+C++ | parallel | 4 | 500x500 | int | 01
+Time (int): 113 ms
+C++ | parallel | 4 | 1000x1000 | int | 01
+Time (int): 973 ms
+C++ | parallel | 4 | 2000x2000 | int | 01
+Time (int): 15937 ms
+
+C++ | parallel | 4 | 500x500 | float | 01
+Time (float): 129 ms
+C++ | parallel | 4 | 1000x1000 | float | 01
+Time (float): 1327 ms
+C++ | parallel | 4 | 2000x2000 | float | 01
+Time (float): 16066 ms
+
+C++ | parallel | 8 | 500x500 | int | 01
+Time (int): 106 ms
+C++ | parallel | 8 | 1000x1000 | int | 01
+Time (int): 1458 ms
+C++ | parallel | 8 | 2000x2000 | int | 01
+Time (int): 13039 ms
+
+C++ | parallel | 8 | 500x500 | float | 01
+Time (float): 112 ms
+C++ | parallel | 8 | 1000x1000 | float | 01
+Time (float): 1491 ms
+C++ | parallel | 8 | 2000x2000 | float | 01
+Time (float): 13137 ms
+
+C++ | parallel | 16 | 500x500 | int | 01
+Time (int): 111 ms
+C++ | parallel | 16 | 1000x1000 | int | 01
+Time (int): 1449 ms
+C++ | parallel | 16 | 2000x2000 | int | 01
+Time (int): 14005 ms
+
+C++ | parallel | 16 | 500x500 | float | 01
+Time (float): 115 ms
+C++ | parallel | 16 | 1000x1000 | float | 01
+Time (float): 1479 ms
+C++ | parallel | 16 | 2000x2000 | float | 01
+Time (float): 14116 ms
+
+C++ | parallel | 2 | 500x500 | int | O2
+Time (int): 95 ms
+C++ | parallel | 2 | 1000x1000 | int | 02
+Time (int): 834 ms
+C++ | parallel | 2 | 2000x2000 | int | 02
+Time (int): 24603 ms
+
+C++ | parallel | 2 | 500x500 | float | 02
+Time (float): 113 ms
+C++ | parallel | 2 | 1000x1000 | float | 02
+Time (float): 913 ms
+C++ | parallel | 2 | 2000x2000 | float | 02
+Time (float): 24463 ms
+
+C++ | parallel | 4 | 500x500 | int | 02
+Time (int): 49 ms
+C++ | parallel | 4 | 1000x1000 | int | 02
+Time (int): 428 ms
+C++ | parallel | 4 | 2000x2000 | int | 02
+Time (int): 12459 ms
+
+C++ | parallel | 4 | 500x500 | float | 02
+Time (float): 58 ms
+C++ | parallel | 4 | 1000x1000 | float | 02
+Time (float): 450 ms
+C++ | parallel | 4 | 2000x2000 | float | 02
+Time (float): 12279 ms
+
+C++ | parallel | 8 | 500x500 | int | 02
+Time (int): 47 ms
+C++ | parallel | 8 | 1000x1000 | int | 02
+Time (int): 1462 ms
+C++ | parallel | 8 | 2000x2000 | int | 02
+Time (int): 12714 ms
+
+C++ | parallel | 8 | 500x500 | float | 02
+Time (float): 69 ms
+C++ | parallel | 8 | 1000x1000 | float | 02
+Time (float): 1259 ms
+C++ | parallel | 8 | 2000x2000 | float | 02
+Time (float): 12805 ms
+
+C++ | parallel | 16 | 500x500 | int | 02
+Time (int): 51 ms
+C++ | parallel | 16 | 1000x1000 | int | 02
+Time (int): 1403 ms
+C++ | parallel | 16 | 2000x2000 | int | 02
+Time (int): 12814 ms
+
+C++ | parallel | 16 | 500x500 | float | 02
+Time (float): 52 ms
+C++ | parallel | 16 | 1000x1000 | float | 02
+Time (float): 1265 ms
+C++ | parallel | 16 | 2000x2000 | float | 02
+Time (float): 12846 ms
+
+C++ | parallel | 2 | 500x500 | int | O3
+Time (int): 96 ms
+C++ | parallel | 2 | 1000x1000 | int | 03
+Time (int): 820 ms
+C++ | parallel | 2 | 2000x2000 | int | 03
+Time (int): 24033 ms
+
+C++ | parallel | 2 | 500x500 | float | 03
+Time (float): 110 ms
+C++ | parallel | 2 | 1000x1000 | float | 03
+Time (float): 919 ms
+C++ | parallel | 2 | 2000x2000 | float | 03
+Time (float): 23928 ms
+
+C++ | parallel | 4 | 500x500 | int | 03
+Time (int): 48 ms
+C++ | parallel | 4 | 1000x1000 | int | 03
+Time (int): 429 ms
+C++ | parallel | 4 | 2000x2000 | int | 03
+Time (int): 12210 ms
+
+C++ | parallel | 4 | 500x500 | float | 03
+Time (float): 58 ms
+C++ | parallel | 4 | 1000x1000 | float | 03
+Time (float): 447 ms
+C++ | parallel | 4 | 2000x2000 | float | 03
+Time (float): 11950 ms
+
+C++ | parallel | 8 | 500x500 | int | 03
+Time (int): 48 ms
+C++ | parallel | 8 | 1000x1000 | int | 03
+Time (int): 1349 ms
+C++ | parallel | 8 | 2000x2000 | int | 03
+Time (int): 12602 ms
+
+C++ | parallel | 8 | 500x500 | float | 03
+Time (float): 51 ms
+C++ | parallel | 8 | 1000x1000 | float | 03
+Time (float): 1353 ms
+C++ | parallel | 8 | 2000x2000 | float | 03
+Time (float): 12718 ms
+
+C++ | parallel | 16 | 500x500 | int | 03
+Time (int): 48 ms
+C++ | parallel | 16 | 1000x1000 | int | 03
+Time (int): 1344 ms
+C++ | parallel | 16 | 2000x2000 | int | 03
+Time (int): 12912 ms
+
+C++ | parallel | 16 | 500x500 | float | 03
+Time (float): 53 ms
+C++ | parallel | 16 | 1000x1000 | float | 03
+Time (float): 1263 ms
+C++ | parallel | 16 | 2000x2000 | float | 03
+Time (float): 13040 ms
+
+Python | 500x500 | int
+Time: 4.930019378662109 ms
+Python | 1000x1000 | int
+Time: 40.97437858581543 ms
+Python | 2000x2000 | int
+Time: 199.6438503265381 ms
+
+Python | 500x500 | float
+Time: 7.7667236328125 ms
+Python | 1000x1000 | float
+Time: 40.833473205566406 ms
+Python | 2000x2000 | float
+Time: 168.37358474731445 ms
+
+Go | sequential | 500x500 | int
+Time (int):  504 ms
+Go | sequential | 1000x1000 | int
+Time (int):  4735 ms
+Go | sequential | 2000x2000 | int
+Time (int):  87941 ms
+
+Go | sequential | 500x500 | float
+Time (float64):  417 ms
+Go | sequential | 1000x1000 | float
+Time (float64):  4015 ms
+Go | sequential | 2000x2000 | float
+Time (float64):  79080 ms
+
+Go | parallel | 500x500 | int
+Time (int):  207 ms
+Go | parallel | 1000x1000 | int
+Time (int):  2539 ms
+Go | parallel | 2000x2000 | int
+Time (int):  40108 ms
+
+Go | parallel | 500x500 | float
+Time (float64):  187 ms
+Go | parallel | 1000x1000 | float
+Time (float64):  2337 ms
+Go | parallel | 2000x2000 | float
+Time (float64):  38151 ms
+
+Go | parallel | 2 | 500x500 | int
+Time (int):  580 ms
+Go | parallel | 2 | 1000x1000 | int
+Time (int):  4257 ms
+Go | parallel | 2 | 2000x2000 | int
+Time (int):  55134 ms
+
+Go | parallel | 2 | 500x500 | float
+Time (float64):  529 ms
+Go | parallel | 2 | 1000x1000 | float
+Time (float64):  4395 ms
+Go | parallel | 2 | 2000x2000 | float
+Time (float64):  50615 ms
+
+Go | parallel | 4 | 500x500 | int
+Time (int):  359 ms
+Go | parallel | 4 | 1000x1000 | int
+Time (int):  2750 ms
+Go | parallel | 4 | 2000x2000 | int
+Time (int):  32274 ms
+
+Go | parallel | 4 | 500x500 | float
+Time (float64):  369 ms
+Go | parallel | 4 | 1000x1000 | float
+Time (float64):  2775 ms
+Go | parallel | 4 | 2000x2000 | float
+Time (float64):  30193 ms
+
+Go | parallel | 8 | 500x500 | int
+Time (int):  199 ms
+Go | parallel | 8 | 1000x1000 | int
+Time (int):  2657 ms
+Go | parallel | 8 | 2000x2000 | int
+Time (int):  27302 ms
+
+Go | parallel | 8 | 500x500 | float
+Time (float64):  194 ms
+Go | parallel | 8 | 1000x1000 | float
+Time (float64):  2078 ms
+Go | parallel | 8 | 2000x2000 | float
+Time (float64):  24906 ms
+
+Go | parallel | 16 | 500x500 | int
+Time (int):  187 ms
+Go | parallel | 16 | 1000x1000 | int
+Time (int):  2294 ms
+Go | parallel | 16 | 2000x2000 | int
+Time (int):  27828 ms
+
+Go | parallel | 16 | 500x500 | float
+Time (float64):  189 ms
+Go | parallel | 16 | 1000x1000 | float
+Time (float64):  1937 ms
+Go | parallel | 16 | 2000x2000 | float
+Time (float64):  26842 ms

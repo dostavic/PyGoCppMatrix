@@ -89,7 +89,7 @@ int main() {
 //
 //    std::cout << "Time (float) : " << elapsedFloat.count() << " ms" << std::endl;
 //
-//    saveMatrix(resultFloat, "../../../data/output/matrix_cpp_float.txt");
+//    saveMatrix(resultFloat, "../../../data/output/matrix_cpp_s_float.txt");
 
 
     auto matrixAInt = readMatrix<int>("../../../data/input/matrix_int_500_500_1.txt");
@@ -106,7 +106,7 @@ int main() {
 
     std::cout << "Time (int) : " << elapsedInt.count() << " ms" << std::endl;
 
-    saveMatrix(resultInt, "../../../data/output/matrix_cpp_int.txt");
+    saveMatrix(resultInt, "../../../data/output/matrix_cpp_s_int.txt");
 
     return 0;
 }
